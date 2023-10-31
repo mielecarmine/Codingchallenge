@@ -1,0 +1,84 @@
+body {
+    background-image: url(background.jpg);         /* Inserisco l'immagine */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   /* Setto un font per tutto il testo della pagina */
+}
+
+body > div:first-child{           /* Creo il box nero semi-trasparente */
+    margin: auto;
+    width: 70%;
+    height: 600px;                
+    padding: 50px;
+    border-radius: 30px;
+    box-sizing: content-box;
+    background-color: #00000080;
+}
+
+header > img {                  /* Sistemo il logo al centro */
+    margin: auto;
+    width: 30%;             
+    display: block;
+}
+
+
+header > h1 {                  /* Creo la scritta verde e la sistemo al centro */
+    color: #04bd04;                 
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5px;
+}
+
+div > nav {                             /* Creo il box nav dove andare a mettere i bottoni */
+    background-color: #04bd04;
+    box-sizing: content-box;
+    margin: auto;
+    height: 20px;
+    padding: 10px;
+}
+
+nav > div {           /* Questo selettore è per centrare i bottoni */
+    margin: auto;    
+    width: 30%;
+}
+
+.monopattini {        /* La classe monopattini avrà margine superiore al 3% e tutte le scritte in bianco */
+    margin-top: 3%;
+    color: white;
+}
+
+.monopattini > h3 {   /* Questo è per affiancare gli h2 alle checkbox */
+    display: inline;
+}
+
+div > span:before {    /* Per inserire la freccetta */
+    content: "\2192";
+}
+
+.monopattini > div {    /* Tutte le scritte all'interno della classe monopattini devono avere margine top 5px */
+    margin-top: 5px;
+}
+
+#caricagino {
+    background-color: #e29a14;
+    box-sizing: content-box;
+    height: 20px;
+    width: 43%;
+    border-radius: 5px;
+}
+
+#caricamike {
+    background-color: #02a802;
+    box-sizing: content-box;
+    height: 20px;
+    width: 57%;
+    border-radius: 5px;
+}
+
+#caricafede {
+    background-color: #9b0000;
+    box-sizing: content-box;
+    height: 20px;
+    width: 20%;
+    border-radius: 5px;
+}
